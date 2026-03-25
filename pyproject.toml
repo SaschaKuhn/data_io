@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "data_io"
+version = "0.0.1"
+authors = [
+    {name = "Sascha M. Kuhn", email = "skuhn@imm.cnrs.fr"}
+]
+description = "Utilities to read data."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools]
+packages = {find = {}}
